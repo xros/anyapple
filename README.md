@@ -1,14 +1,21 @@
-WifiPineapple Mark 5 Infusion downloader
+Anyapple
 =======================================
+By Alexander Liu
+
 
     Why this?
-    I found the resources of [WifiPineapple](https://www.wifipineapple.com) were not so *OPEN*. So I did a bit hack into it.
-    And everyone can build his or her own WifiPineapple System.
-    I bought a cheap portable router which is only $20, **Lenovo PWR G-60**, which has Atheros 9331 with 64MB RAM, 16MB ROM, SD socket, USB 2.0 socket,  6000 MHA Lipo bettery built inside. Battery life can be upto 14 hours.
-    And I hacked it a bit with a better antenna.
-    All your need is a compatible router which can run OpenWRT.
 
-    --Alexander Liu
+* I found the resources of [WifiPineapple](https://www.wifipineapple.com) were not so *OPEN*. So I did a bit hack into it.
+And everyone can build his or her own WifiPineapple System.
+I bought a cheap portable router which is only $20, **Lenovo PWR G-60**, which has Atheros 9331 with 64MB RAM, 16MB ROM, SD socket, USB 2.0 socket,  6000 MHA Lipo bettery built inside. Battery life can be upto 14 hours.
+And I hacked it a bit with a better antenna.
+All your need is a compatible router which can run OpenWRT.
+
+
+
+WifiPineapple Mark 5 Infusion downloader
+=======================================
+* It was included.
 
 
 Requiresments
