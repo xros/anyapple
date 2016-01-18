@@ -36,4 +36,17 @@ Download all infusions
     proxychains4 python download_infusions.py
     ```
 
+* Use in console
+
+Connect to your router via SSH protocol. WifiPineapple is based on OpenWRT.
+
+Try to update your system if the ISP blocks the Interent.
+    ```bash
+    export HTTP_PROXY="127.0.0.1:1080"
+    export HTTPS_PROXY="127.0.0.1:1080"
+    ```
+
+
+
+
 #### Happy hacking!

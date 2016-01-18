@@ -17,7 +17,7 @@ for name in the_dict:
         one_link = "http://www.wifipineapple.com/mk5_infusions?infusion=" + i['name'] + "-" + i['version']
         download_links.append(one_link)
 
-print(download_links)
+#print(download_links)
 
 print("[ Trying to download all infusions now... ]")
 
