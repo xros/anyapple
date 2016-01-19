@@ -46,28 +46,21 @@ This will create serveral folders, such as *./usr* , *./sys* , *./cli* and etc. 
 
 Try to update your system if the ISP blocks the Interent.
 
-    ```bash
     export HTTP_PROXY="127.0.0.1:1080"
     export HTTPS_PROXY="127.0.0.1:1080"
-    ```
 
 * Extract to wifipineapple
-
 Copy all the downloads to /pineapple/components/
 
 After getting into wifipinapple, for example,  do 
 
-    ```bash
     cd /pineapple/components/usr/
     for i in `ls | grep .tar.gz | xargs`; do tar -xzvf $i -C ./ ; done
-    ```
 
 Removing all infusion packages _*.tar.gz_
 
-    ```bash
     cd /pineapple/components/usr/
     rm ./*.tar.gz -rf
-    ```
 
 
 
