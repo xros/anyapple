@@ -50,7 +50,7 @@ Try to update your system if the ISP blocks the Interent.
     export HTTPS_PROXY="127.0.0.1:1080"
 
 * Extract to wifipineapple
-Copy all the downloads to /pineapple/components/
+Copy all the downloads to /pineapple/components/ . I would recommend you copy files to the SD card */sd/[your_folder]* on wifipineapple.
 
 After getting into wifipinapple, for example,  do 
 
