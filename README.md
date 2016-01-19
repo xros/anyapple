@@ -50,11 +50,12 @@ Try to update your system if the ISP blocks the Interent.
     export HTTPS_PROXY="127.0.0.1:1080"
 
 * Extract to wifipineapple
-Copy all the downloads to /pineapple/components/ . I would recommend you copy files to the SD card */sd/[your_folder]* on wifipineapple.
+Copy all the downloads to /pineapple/components/ . I would recommend you copy files to the SD card */sd/[your_folder]* on wifipineapple. And you can create soft links to the path on SD card.
 
 After getting into wifipinapple, for example,  do 
 
-    cd /pineapple/components/usr/
+    cd /sd/[your_folder]/usr
+    ln -sf /sd/[your_folder]/usr /pineapple/components/
     for i in `ls | grep .tar.gz | xargs`; do tar -xzvf $i -C ./ ; done
 
 Removing all infusion packages _*.tar.gz_
