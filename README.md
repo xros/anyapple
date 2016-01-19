@@ -28,7 +28,9 @@ Download all infusions
 ----------------------
 * Usage as followings:
 
-    ![demo](http://i.imgur.com/S8hrByh.png)
+    ![demo](static/snapshot170.png)
+
+    It will take some time ...
 
     ```bash
     python download_infusions.py
@@ -40,10 +42,31 @@ Download all infusions
 
 Connect to your router via SSH protocol. WifiPineapple is based on OpenWRT.
 
+This will create serveral folders, such as *./usr* , *./sys* , *./cli* and etc. and download them all into folders.
+
 Try to update your system if the ISP blocks the Interent.
-    ```bash
+
+    ```
     export HTTP_PROXY="127.0.0.1:1080"
     export HTTPS_PROXY="127.0.0.1:1080"
+    ```
+
+* Extract to wifipineapple
+
+Copy all the downloads to /pineapple/components/
+
+After getting into wifipinapple, for example,  do 
+
+    ```
+    cd /pineapple/components/usr/
+    for i in `ls | grep .tar.gz | xargs`; do tar -xzvf $i -C ./ ; done
+    ```
+
+Removing all infusion packages _*.tar.gz_
+
+    ```
+    cd /pineapple/components/usr/
+    rm ./*.tar.gz -rf
     ```
 
 
