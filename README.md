@@ -38,7 +38,7 @@ Download all infusions
     proxychains4 python download_infusions.py
     ```
 
-* Use in console
+### Use proxy if Internet is censord
 
 Connect to your router via SSH protocol. WifiPineapple is based on OpenWRT.
 
@@ -49,7 +49,7 @@ Try to update your system if the ISP blocks the Interent.
     export HTTP_PROXY="127.0.0.1:1080"
     export HTTPS_PROXY="127.0.0.1:1080"
 
-* Extract to wifipineapple
+### Extract to wifipineapple
 Copy all the downloads to /pineapple/components/ . I would recommend you copy files to the SD card */sd/[your_folder]* on wifipineapple. And you can create soft links to the path on SD card.
 
 After getting into wifipinapple, for example,  do 
@@ -64,7 +64,7 @@ Removing all infusion packages _*.tar.gz_
     rm ./*.tar.gz -rf
 
 
-* Use web UI
+### Use web UI
 
 You would see this if infusions are installed in this way. Then try to install some dependencis.
 
