@@ -64,6 +64,15 @@ Removing all infusion packages _*.tar.gz_
     rm ./*.tar.gz -rf
 
 
+* Use web UI
+
+You would see this if infusions are installed in this way. Then try to install some dependencis.
+
+It would be slow if you install all of them. Try to select some of them you need.
+
+
+![web-ui](static/snapshot171.png)
+
 
 
 #### Happy hacking!
