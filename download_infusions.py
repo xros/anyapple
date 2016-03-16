@@ -1,8 +1,11 @@
+#!/usr/bin/env python2
+# Copyright to Alexander Liu, all rights reserved
+# LICENCE: GPL V3
 import json
 import subprocess
 
 
-print("[ Getting all infusions links... ]")
+print("[+] Getting all infusions links... ")
 bashCommand = 'curl "https://www.wifipineapple.com/?downloads&list_infusions&mk5"'
 result = subprocess.check_output(bashCommand , shell=True)
 the_dict = json.loads(result)
@@ -29,7 +32,7 @@ for name in the_dict:
 #print(download_links)
 #print(download_links_in_types)
 
-print("[ Trying to download all infusions now... ]")
+print("[+] Trying to download all infusions now... ")
 #
 
 for infusion_type in download_links_in_types:
@@ -38,4 +41,4 @@ for infusion_type in download_links_in_types:
         bashCommand = 'wget "' + link + '" -O ./' + infusion_type + '/' + file_name
         result = subprocess.check_output(bashCommand , shell=True)
 
-print("[ Finished! All infusions are downloaded. ]")
+print("[!] Finished! All infusions are downloaded. They are in folders: cli/, sys/, usr/ ")
