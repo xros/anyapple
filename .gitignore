@@ -1,3 +1,9 @@
+cli/
+cli/*
+sys/
+sys/*
+usr/
+usr/*
 *.tar.gz
 *.swp
 *.swo

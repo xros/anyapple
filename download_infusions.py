@@ -6,7 +6,8 @@ import subprocess
 
 
 print("[+] Getting all infusions links... ")
-bashCommand = 'curl "https://www.wifipineapple.com/?downloads&list_infusions&mk5"'
+# bashCommand = 'curl "https://www.wifipineapple.com/?downloads&list_infusions&mk5"'
+bashCommand = 'curl "https://www.wifipineapple.com/modules/mk5/"'
 result = subprocess.check_output(bashCommand , shell=True)
 the_dict = json.loads(result)
 
