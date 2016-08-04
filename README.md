@@ -2,6 +2,8 @@ Anyapple
 =======================================
 By Alexander Liu
 
+[LICENSE: FTE v1](https://github.com/xros/license-FTE-v1)
+
 
     Why this?
 
