@@ -25,6 +25,8 @@ Everyone is permitted to copy, distribute or modifiy anything under this license
 
 import json
 import subprocess
+import os
+
 
 
 print("[+] Getting all infusions links... ")
@@ -57,11 +59,15 @@ for name in the_dict:
 
 print("[+] Trying to download all infusions now... ")
 #
+# create dir if any
+result = subprocess.check_output("mkdir downloads/{cli,sys,usr} -p", shell=True)
 
 for infusion_type in download_links_in_types:
     for link in download_links_in_types[infusion_type]:
         file_name = link.split("=")[1] + ".tar.gz"
-        bashCommand = 'wget "' + link + '" -O ./' + infusion_type + '/' + file_name
+        bashCommand = 'wget "' + link + '" -O ./downloads/' + infusion_type + '/' + file_name
         result = subprocess.check_output(bashCommand , shell=True)
 
-print("[!] Finished! All infusions are downloaded. They are in folders: cli/, sys/, usr/ ")
+print("[+] Finished! All infusions are downloaded. They are in folders: downloads/cli/, downloads/sys/, downloads/usr/ ")
+
+print("[+] Please come here to submit issues https://github.com/xros/anyapple")
