@@ -1,6 +1,28 @@
 #!/usr/bin/env python2
-# Copyright to Alexander Liu, all rights reserved
-# LICENCE: GPL V3
+# Copyright to Alexander Liu
+# LICENCE: FTE v1
+"""
+                          __________________
+                         / ____/_  __/ ____/
+                        / /_    / / / __/
+                       / __/   / / / /___
+                      /_/     /_/ /_____/
+
+                   FREER THAN EVER PUBLIC LICENSE
+
+                        Version 1, March 2016
+
+             Copyright (C) 2016 Alexander Liu <alex(at)nervey.com>
+
+If there exists a most free license, this will be freer than it.
+Everyone is permitted to copy, distribute or modifiy anything under this license.
+
+                   FREER THAN EVER PUBLIC LICENSE
+    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+0. You are freer than ever to copy, distribute and modifiy anything under this license.
+"""
+
 import json
 import subprocess
 
