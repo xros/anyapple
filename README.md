@@ -42,7 +42,7 @@ Download all infusions
 
 Connect to your router via SSH protocol. WifiPineapple is based on OpenWRT.
 
-This will create serveral folders, such as *./usr* , *./sys* , *./cli* and etc. and download them all into folders.
+This will create serveral folders, such as *./downloads/usr* , *./downloads/sys* , *./downloads/cli* and etc. and download them all into folders.
 
 Try to update your system if the ISP blocks the Interent.
 
